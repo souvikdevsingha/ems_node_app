@@ -20,3 +20,4 @@ router.post('/getMenu',auth,menuController.getMenu)
 router.get('/getAllMenu',menuController.getAllMenu)
 
 module.exports = router;
+//all route

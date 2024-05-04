@@ -5,7 +5,7 @@ var app = express();
 var bodyParser = require('body-parser');
 //var mongoose = require('mongoose');
 var cors=require('cors');
-//var mongoose = require('./db/connection');
+var mongoose = require('./db/connection');
 cors = function (req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
   res.header("Access-Control-Allow-Methods", 'GET,PUT,POST,DELETE');

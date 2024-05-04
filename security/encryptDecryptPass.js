@@ -4,6 +4,7 @@ class PasswordEncryptDecrypt {
     async encryptPassword(password){
         const saltRounds = Number(process.env.WORKFACTOR);
         const hashedPassword = await bcrypt.hash(password, saltRounds);
+        console.log(hashedPassword)
         return hashedPassword;
     }
 

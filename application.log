@@ -86,3 +86,4 @@
 2024-04-21 10:12:46 [error]: Error in MongoDb connection: MongoServerSelectionError: Client network socket disconnected before secure TLS connection was established
 2024-04-21 10:13:16 [error]: Error in MongoDb connection: MongoServerSelectionError: Client network socket disconnected before secure TLS connection was established
 2024-04-26 23:53:24 [error]: Error in MongoDb connection: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.j1reyqx.mongodb.net
+2024-04-27 00:37:04 [error]: Error in MongoDb connection: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.j1reyqx.mongodb.net

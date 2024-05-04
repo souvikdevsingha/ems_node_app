@@ -17,11 +17,6 @@ app.use(cors)
   .use(bodyParser.json())
   .use(bodyParser.urlencoded({ limit: '50mb', extended: true }));
 
-app.use('/',(req,res)=>{
-  res.send({
-    message : 'hi'
-  })
-})
 app.use('/api/EMS', require('./routes/routes'));
 
 const PORT = process.env.PORT || 3001;
